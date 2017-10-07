@@ -1,3 +1,18 @@
 /*body {
 	background-color: blue;
 }*/
+
+img {
+	width: 90px;
+	height: 98px;
+}
+
+.grow:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+#badgeCardHolder {
+	margin-top: 40px;
+}
