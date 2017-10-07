@@ -4,13 +4,10 @@
 const createDomString = (treehouseBadges) => {
 	let badgeString = '';
 	treehouseBadges.forEach((badges) => {
-		badgeString += `<div class="col-md-2">`;
+		badgeString += `<div class="col-md-1">`;
 		badgeString +=   `<div class="image-container">`;
-		badgeString +=     `<img src="${badges.icon_url}" class="img-responsive">`;
+		badgeString +=     `<img src="${badges.icon_url}" class="grow">`;
 		badgeString +=   `</div>`;
-		// badgeString +=   `<div class="description-container">`;
-		// badgeString +=     `<h3>${badges.name}</h3>`;
-		// badgeString +=   `</div>`;
 		badgeString += `</div>`;
 	});
 	printToDom(badgeString);
